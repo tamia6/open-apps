@@ -24,3 +24,13 @@ seo:
   title: "rfig – Open Source Terminal Autocomplete"
   description: "Command completion menus and directory-scoped history suggestions for zsh, Bash and Fish on macOS and Linux."
 ---
+
+## Why it is worth using or studying
+
+rfig adds command-completion menus and directory-scoped history suggestions to zsh, Bash and Fish without requiring a cloud service. Its Rust engine and separate shell adapters make it useful to study how interactive completion, candidate ranking and history suggestions fit into existing shells.
+
+## Popularity exception rationale
+
+The project currently has 22 GitHub stars. It is submitted on the strength of a usable implementation, documented Homebrew and binary installation, an MIT license, a demonstration and three shell integrations, rather than established popularity. Acceptance of that exception remains a maintainer decision.
+
+Completion coverage depends on the definitions available in the environment. Bash 4.4+ and Fish 3.6+ are required for those adapters, and enabling history suggestions replaces equivalent shell or plugin functionality. This is a maintainer submission based on the documented behavior.
