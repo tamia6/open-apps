@@ -32,3 +32,11 @@ seo:
   title: "AppDuo – Open Source macOS App Cloner"
   description: "Native macOS app cloner with separate data directories and custom names and icons."
 ---
+
+## Why it is worth using or studying
+
+AppDuo addresses the practical problem of keeping work and personal accounts in separate macOS app instances. Custom names and icons make the instances easier to distinguish, and clone updates can preserve the associated data and configuration.
+
+For developers, the repository provides a Swift/SwiftUI interface, a Swift cloning engine and CLI, and application-specific recipes. These offer concrete examples of managing app bundles, launch environments and version-dependent compatibility.
+
+It requires macOS 14 or later. Support should be evaluated against the exact target application version; creating a clone is not evidence that every login, notification or isolation behavior works. This is a maintainer submission based on the documented implementation, not an independent compatibility certification.
